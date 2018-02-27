@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Smoke Test" >
+ 
+  <parameter name="url"  value="https://accounts.google.com/"/>
+  <parameter name="Chromedriverexe" value="C:\\Selenium\\chrome\\chromedriver.exe"/>
+  
+   <parameter name="email"  value="deepakahuja79@gmail.com"/>
+    <parameter name="password"  value="ri00170823"/>
+  
+;
+  
+  
+ 
+ <!--  <classes>
+       <class name="TestNGBasics.AssertionTest"/>
+    </classes>
+  </test>
+ 
+  <test name="FNS Treasury Progression"> 
+    <classes>
+      <class name="TestNGBasics.DependsonMethod"/>
+      <class name="TestNGBasics.GoogleTest"/>
+      <class name="TestNGBasics.Invocationcount"/>
+      <class name="TestNGBasics.HandlingExceptions"/>
+    </classes>  -->
+  </test>
+</suite>
